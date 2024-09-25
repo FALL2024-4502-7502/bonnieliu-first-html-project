@@ -33,13 +33,14 @@ footer {
 }
 
 nav {
-    background-color: #F0F4F8;
+    background-color: #FFFFFF;
     padding: 1rem;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 50px;
+}
 }
 
 nav ul {
