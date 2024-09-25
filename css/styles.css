@@ -2,11 +2,6 @@ body {
     background-color: #E0F7FA; 
     font-family: 'Poppins', sans-serif; 
     color: #0D47A1; 
-    text-align: center; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column; 
     margin: 0;
     padding: 0;
 }
@@ -14,24 +9,24 @@ body {
 header {
     background-color: #01579B; 
     color: #F0F4F8;  
-    padding: 2rem; 
+    padding: 1rem; 
     text-align: center;
     width: 100%; 
-    margin-bottom: 1rem; 
+    margin-bottom: 1.5rem; 
 }
 
 footer {
     background-color: #0288D1; 
     color: #F0F4F8; 
-    padding: 0.5rem; 
+    padding: 1rem; 
     text-align: center;
     width: 100%; 
-    margin-top: 2rem; 
+    margin-top: 1.5rem; 
 }
 
 nav {
     background-color: #F0F4F8; 
-    padding: 1rem;  
+    padding: 1rem; 
     width: 100%; 
     margin-bottom: 1rem; 
 }
@@ -64,6 +59,7 @@ h1 {
     font-weight: 700;
     color: #F0F4F8;  
     font-size: 3rem;
+    margin-top: 0;
 }
 
 p {
