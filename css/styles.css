@@ -1,8 +1,21 @@
 body {
-    background-color: #E0F7FA; 
+    background-color: #E0F7FA;
     font-family: 'Poppins', sans-serif; 
-    text-align: center;
-    color: #0D47A1; 
+    color: #0D47A1;
+    text-align: center; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
+    flex-direction: column;
+}
+
+nav ul li a {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase; 
 }
 
 .unstyled-link {
@@ -45,10 +58,12 @@ li {
 }
 
 img {
+    border: none;
     display: block;
     margin: 0 auto;
     border-radius: 8px; 
 }
+
 
 a {
     color: #0288D1;
@@ -58,3 +73,38 @@ a {
 a:hover {
     color: #01579B; 
 }
+
+header {
+    background-color: #01579B; 
+    color: white; 
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #0288D1; 
+    color: white; 
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #0277BD; 
+    padding: 1rem;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none;
+}
+
