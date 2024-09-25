@@ -6,17 +6,18 @@ body {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    min-height: 100vh; 
     flex-direction: column; 
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #01579B; 
-    color: #F0F4F8; 
+    color: #F0F4F8;  
     padding: 2rem; 
     text-align: center;
     width: 100%; 
-    margin-top: 100px; 
+    margin-bottom: 1rem;
 }
 
 footer {
@@ -25,19 +26,14 @@ footer {
     padding: 0.5rem; 
     text-align: center;
     width: 100%; 
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    margin-top: 2rem; 
 }
 
 nav {
     background-color: #F0F4F8; 
-    padding: 0.5rem; 
+    padding: 1rem; 
     width: 100%; 
-    position: fixed; 
-    top: 0;
-    left: 0;
-    z-index: 1000; 
+    margin-bottom: 1rem;
 }
 
 nav ul {
@@ -66,7 +62,7 @@ nav ul li a:hover {
 h1 {
     font-family: 'Lora', serif; 
     font-weight: 700;
-    color: #F0F4F8; 
+    color: #F0F4F8;  
     font-size: 3rem;
 }
 
