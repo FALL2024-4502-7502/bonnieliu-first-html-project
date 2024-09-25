@@ -14,24 +14,23 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
-nav {
-    background-color: #F0F4F8;
-    padding: 1rem;
-    width: 100%;
+nav, main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 nav ul {
     padding: 0;
     list-style: none;
-    margin: 0;
-    display: flex;
-    justify-content: center;
 }
 
 nav ul li {
+    display: inline-block;
     margin-right: 1rem;
 }
 
@@ -70,9 +69,6 @@ h1 {
 main {
     margin-top: 1rem;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 p {
@@ -85,8 +81,6 @@ p {
 ul {
     padding: 0;
     list-style: none;
-    text-align: center;
-    margin: 0;
 }
 
 li {
@@ -94,7 +88,6 @@ li {
     font-weight: 300;
     color: #01579B;
     font-size: 1.5rem;
-    margin-bottom: 1rem;
 }
 
 a {
