@@ -1,77 +1,13 @@
 body {
-    background-color: #E0F7FA;
+    background-color: #E0F7FA; 
     font-family: 'Poppins', sans-serif; 
-    color: #0D47A1;
+    color: #0D47A1; 
     text-align: center; 
-    
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    justify-content: center; 
     align-items: center; 
     min-height: 100vh; 
-    flex-direction: column;
-}
-
-nav ul li a {
-    font-family: 'Poppins', sans-serif; 
-    font-weight: 500;
-    color: white;
-    text-transform: uppercase; 
-}
-
-.unstyled-link {
-    font-family: 'Roboto', sans-serif;
-}
-
-h1 {
-    font-family: 'Lora', serif;
-    font-weight: 700;
-    margin: 1rem;
-    color: #01579B;
-    font-size: 3rem; 
-}
-
-p {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    color: #0288D1; 
-    font-size: 1.2rem;
-}
-
-h2 {
-    font-family: 'Kalam', cursive;
-    font-weight: 500;
-    font-style: italic;
-    color: #0277BD; 
-    font-size: 2rem;
-}
-
-ul {
-    padding: 0;
-    list-style: none; 
-}
-
-li {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-    color: #01579B; 
-    font-size: 1.5rem;
-}
-
-img {
-    border: none;
-    display: block;
-    margin: 0 auto;
-    border-radius: 8px; 
-}
-
-
-a {
-    color: #0288D1;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #01579B; 
+    flex-direction: column; 
 }
 
 header {
@@ -83,7 +19,7 @@ header {
 
 footer {
     background-color: #0288D1; 
-    color: white; 
+    color: white;
     padding: 1rem;
     text-align: center;
 }
@@ -95,7 +31,7 @@ nav {
 
 nav ul {
     padding: 0;
-    list-style: none;
+    list-style: none; 
 }
 
 nav ul li {
@@ -106,5 +42,55 @@ nav ul li {
 nav ul li a {
     color: white; 
     text-decoration: none;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    text-transform: uppercase; 
 }
 
+nav ul li a:hover {
+    color: #FFD700; 
+}
+
+h1 {
+    font-family: 'Lora', serif; 
+    font-weight: 700;
+    margin: 1rem;
+    color: #01579B; 
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #0288D1; 
+    font-size: 1.2rem;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #01579B;
+    font-size: 1.5rem;
+}
+
+a {
+    color: #0288D1; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #01579B; 
+    text-decoration: underline; 
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px; 
+    border: none;
+}
