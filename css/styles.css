@@ -17,7 +17,7 @@ header {
     padding: 2rem; 
     text-align: center;
     width: 100%; 
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; 
 }
 
 footer {
@@ -31,9 +31,9 @@ footer {
 
 nav {
     background-color: #F0F4F8; 
-    padding: 1rem; 
+    padding: 1rem;  
     width: 100%; 
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; 
 }
 
 nav ul {
