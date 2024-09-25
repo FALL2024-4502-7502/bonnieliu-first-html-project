@@ -1,47 +1,42 @@
 body {
-    background-color: #E0F7FA;
-    font-family: 'Poppins', sans-serif;
-    color: #0D47A1;
+    background-color: #E0F7FA; 
+    font-family: 'Poppins', sans-serif; 
+    color: #0D47A1; 
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    flex-direction: column;
 }
 
 header {
-    background-color: #01579B;
-    color: #F0F4F8;
-    padding: 1rem;
+    background-color: #01579B; 
+    color: #F0F4F8;  
+    padding: 1rem; 
     text-align: center;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 150px; 
 }
 
 footer {
-    background-color: #FFFFFF;
-    color: #0D47A1;
-    padding: 1rem;
+    background-color: #FFFFFF; 
+    color: #0D47A1; 
+    padding: 1rem; 
     text-align: center;
-    width: 100%;
+    width: 100%; 
     margin-top: 1.5rem;
 }
 
 nav {
-    background-color: #F0F4F8;
-    padding: 1rem;
-    width: 100%;
+    background-color: #F0F4F8; 
+    padding: 1rem; 
+    width: 100%; 
     margin: 0;
 }
 
 nav ul {
     padding: 0;
-    list-style: none;
+    list-style: none; 
     margin: 0;
 }
 
@@ -51,11 +46,11 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #0D47A1;
+    color: #0D47A1; 
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400; 
+    text-transform: uppercase; 
 }
 
 nav ul li a:hover {
@@ -63,9 +58,9 @@ nav ul li a:hover {
 }
 
 h1 {
-    font-family: 'Lora', serif;
+    font-family: 'Lora', serif; 
     font-weight: 700;
-    color: #F0F4F8;
+    color: #F0F4F8;  
     font-size: 3rem;
     margin: 0;
 }
@@ -73,7 +68,7 @@ h1 {
 p {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
-    color: #0288D1;
+    color: #0288D1; 
     font-size: 1.2rem;
 }
 
@@ -90,18 +85,18 @@ li {
 }
 
 a {
-    color: #0288D1;
+    color: #0288D1; 
     text-decoration: none;
 }
 
 a:hover {
-    color: #01579B;
-    text-decoration: underline;
+    color: #01579B; 
+    text-decoration: underline; 
 }
 
 img {
     display: block;
     margin: 0 auto;
-    border-radius: 8px;
+    border-radius: 8px; 
     border: none;
 }
