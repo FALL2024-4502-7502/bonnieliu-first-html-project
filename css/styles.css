@@ -5,10 +5,10 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 header {
@@ -36,17 +36,22 @@ nav {
     background-color: #F0F4F8;
     padding: 1rem;
     width: 100%;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 nav ul {
     padding: 0;
     list-style: none;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul li {
-    display: inline-block;
     margin-right: 1rem;
 }
 
@@ -70,6 +75,14 @@ h1 {
     margin: 0;
 }
 
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 p {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
@@ -80,6 +93,7 @@ p {
 ul {
     padding: 0;
     list-style: none;
+    text-align: center;
 }
 
 li {
@@ -87,6 +101,7 @@ li {
     font-weight: 300;
     color: #01579B;
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 a {
