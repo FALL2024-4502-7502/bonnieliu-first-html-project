@@ -15,35 +15,22 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="oldindex.html">View Unstyled Version</a></li>
             <li><a href="page2.html">Musicals</a></li>
-            <li><a href="page3.html">Tokyo Landmarks</a></li>
             <li><a class="active" href="map.html">Map</a></li>
             <li><a href="https://www.instagram.com/bonnieliu1207/?next=%2F">My Instagram Home Page</a></li>
         </ul>
     </nav>
 
     <main>
-        <h1 style="text-align: center; color: #0D47A1;">Map For Extra Credit</h1>
-
-        <div style="display: flex; justify-content: center; margin: 2rem 0;">
-            <iframe title="Seven Must-Visit Famous Landmarks in Tokyo" aria-label="Locator map" id="datawrapper-chart-PaC63" src="https://datawrapper.dwcdn.net/PaC63/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="518" data-external="1"></iframe>
+        <h1 style="text-align: center; color: #0D47A1; margin-top: 2rem;">Map For Extra Credit</h1>
+        <!-- 添加外层div并居中 -->
+        <div style="text-align: center; margin-top: 2rem;">
+            <div style="display: inline-block; min-height: 518px;">
+                <div id="datawrapper-vis-PaC63">
+                    <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/PaC63/embed.js" charset="utf-8" data-target="#datawrapper-vis-PaC63"></script>
+                    <noscript><img src="https://datawrapper.dwcdn.net/PaC63/full.png" alt="Map of Locations" /></noscript>
+                </div>
+            </div>
         </div>
-
-        <script type="text/javascript">
-            !function() {
-                "use strict";
-                window.addEventListener("message", function(a) {
-                    if (void 0 !== a.data["datawrapper-height"]) {
-                        var e = document.querySelectorAll("iframe");
-                        for (var t in a.data["datawrapper-height"])
-                            for (var r = 0; r < e.length; r++)
-                                if (e[r].contentWindow === a.source) {
-                                    var i = a.data["datawrapper-height"][t] + "px";
-                                    e[r].style.height = i;
-                                }
-                    }
-                });
-            }();
-        </script>
     </main>
 
     <footer>
@@ -51,4 +38,3 @@
     </footer>
 </body>
 </html>
-
