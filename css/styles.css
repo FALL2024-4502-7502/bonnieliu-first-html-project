@@ -11,6 +11,10 @@ body {
     min-height: 100vh;
 }
 
+.text-holder {
+    width: 100%;
+}
+
 header {
     background-color: #01579B;
     color: #F0F4F8;
@@ -88,10 +92,6 @@ main {
     margin-top: 2rem;
     width: 90%;
     }
-
-.text-holder {
-    width: 100%;
-}
 
 .location-holder {
     display: flex;
