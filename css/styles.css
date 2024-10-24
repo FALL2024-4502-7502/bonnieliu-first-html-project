@@ -83,6 +83,12 @@ main {
     align-items: center;
 }
 
+.centered-content {
+    text-align: center;
+    margin-top: 2rem;
+    width: 90%;
+    }
+
 .text-holder {
     width: 100%;
 }
