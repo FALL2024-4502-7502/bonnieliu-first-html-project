@@ -192,4 +192,12 @@ img {
         text-align: center;
         padding: 1rem;
     }
+    
+     p {
+        padding: 0 1rem;
+    }
+
+    img {
+        margin: auto;
+    }
 }
