@@ -91,7 +91,7 @@ main {
     text-align: center;
     margin-top: 2rem;
     width: 90%;
-    }
+}
 
 .location-holder {
     display: flex;
@@ -99,6 +99,31 @@ main {
     align-items: center;
     padding: 1rem;
     margin-bottom: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.image-gallery img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+figure {
+    margin: 0;
+    padding: 1rem;
     background-color: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -192,8 +217,8 @@ img {
         text-align: center;
         padding: 1rem;
     }
-    
-     p {
+
+    p {
         padding: 0 1rem;
     }
 
