@@ -2,12 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discovering the Timeless Charm of Kyoto, Japan</title>
+    <title>Photo Gallery</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -23,42 +21,42 @@
     </nav>
 
     <main id="content">
-        <h1 style="text-align: center; color: #0D47A1; margin-top: 2rem;">Discovering the Timeless Charm of Kyoto, Japan</h1>
-        <p style="text-align: center; color: #0288D1; margin: 1rem auto; max-width: 80%;">
-            Summary: Kyoto is a city where the past is not just preserved but cherished, offering a unique window into Japan's storied history. Known for its magnificent temples, timeless streets, and sacred shrines, Kyoto captivates with a blend of cultural richness and peaceful ambiance. Join me as we explore some of the city's most iconic landmarks and experiences that weave together a tapestry of tradition, beauty, and unforgettable moments.
-        </p>
-
-        <section class="gallery-section">
-            <figure class="gallery-image">
-                <img src="img/Kiyomizu-dera-Temple.jpg" alt="Kiyomizu-dera Temple">
-                <figcaption>Kiyomizu-dera Temple: This famous wooden temple is a UNESCO World Heritage site that sits on a hillside, offering amazing views of the city and showing Kyoto’s historic beauty.</figcaption>
-            </figure>
-
-            <figure class="gallery-image">
-                <img src="img/Ninenzaka-and-Sannenzaka.jpg" alt="Ninenzaka and Sannenzaka">
-                <figcaption>Ninenzaka and Sannenzaka: These old streets are full of cute shops and historic buildings, giving a glimpse into Kyoto’s traditional culture and inviting visitors to step into the past.</figcaption>
-            </figure>
-
-            <figure class="gallery-image">
-                <img src="img/Hokan-ji-Temple.jpg" alt="Hokan-ji Temple">
-                <figcaption>Hokan-ji Temple: Also known as the Yasaka Pagoda, this five-story pagoda stands gracefully in Kyoto's historic Higashiyama district. It is a reminder of the city's deep-rooted traditions and architectural beauty.</figcaption>
-            </figure>
-
-            <figure class="gallery-image">
-                <img src="img/Kinkaku-ji-Temple.jpg" alt="Kinkaku-ji Temple">
-                <figcaption>Kinkaku-ji Temple: Also called the Golden Pavilion, this beautiful building is covered in gold leaf and surrounded by a peaceful pond, showing elegance and tranquility.</figcaption>
-            </figure>
-
-            <figure class="gallery-image">
-                <img src="img/Fushimi-Inari-Shrine.jpg" alt="Fushimi Inari Shrine">
-                <figcaption>Fushimi Inari Shrine: Known for its long path of bright red torii gates, this shrine is a strong symbol of faith and devotion in Kyoto.</figcaption>
-            </figure>
-        </section>
+        <h1>Discovering the Timeless Charm of Kyoto</h1>
+        <div id="gallery-container">
+            <div class="gallery-image hideThis">
+                <img src="images/Kiyomizu-dera-Temple.jpg" alt="Kiyomizu-dera Temple">
+                <figcaption>Kiyomizu-dera Temple: A UNESCO World Heritage site with amazing city views.</figcaption>
+            </div>
+            <div class="gallery-image hideThis">
+                <img src="images/Ninenzaka-and-Sannenzaka.jpg" alt="Ninenzaka and Sannenzaka">
+                <figcaption>Ninenzaka and Sannenzaka: Historic streets showcasing Kyoto's traditional charm.</figcaption>
+            </div>
+            <div class="gallery-image hideThis">
+                <img src="images/Hokan-ji-Temple.jpg" alt="Hokan-ji Temple">
+                <figcaption>Hokan-ji Temple: Known as Yasaka Pagoda, it is a beautiful five-story structure.</figcaption>
+            </div>
+            <div class="gallery-image hideThis">
+                <img src="images/Kinkaku-ji-Temple.jpg" alt="Kinkaku-ji Temple">
+                <figcaption>Kinkaku-ji Temple: The Golden Pavilion surrounded by a serene pond.</figcaption>
+            </div>
+            <div class="gallery-image hideThis">
+                <img src="images/Fushimi-Inari-Shrine.jpg" alt="Fushimi Inari Shrine">
+                <figcaption>Fushimi Inari Shrine: Renowned for its path of vibrant red torii gates.</figcaption>
+            </div>
+        </div>
+        <div class="button_holder">
+            <button id="button_previous" class="button-start">Previous</button>
+            <p id="stepper"></p>
+            <button id="button_next">Next</button>
+        </div>
     </main>
 
     <footer>
-        <p style="text-align: center; color: #0D47A1;">© 2024 My Project</p>
+        <p>© 2024 My Project</p>
     </footer>
+
+    <script src="js/page4.js"></script>
 </body>
 </html>
+
 
