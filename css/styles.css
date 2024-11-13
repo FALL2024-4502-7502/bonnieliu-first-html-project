@@ -129,6 +129,13 @@ figure {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+figure figcaption {
+    font-family: 'Roboto Slab', serif;
+    color: #01579B;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
 p {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
@@ -172,6 +179,10 @@ img {
         font-size: 1.1rem;
     }
 
+    .image-gallery img {
+        max-width: 100%;
+    }
+
     .location-holder {
         flex-direction: row;
         justify-content: space-between;
@@ -203,6 +214,11 @@ img {
         align-items: center;
         text-align: center;
         padding: 1rem;
+    }
+
+    .image-gallery {
+        flex-direction: column;
+        gap: 1rem;
     }
 }
 
