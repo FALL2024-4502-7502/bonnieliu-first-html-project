@@ -212,7 +212,7 @@ img {
 }
 
 .hideThis {
-    display: none;
+    display: none !important;
 }
 
 .button_holder {
