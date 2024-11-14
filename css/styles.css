@@ -4,59 +4,20 @@ body {
     color: #0D47A1;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-.text-holder {
-    width: 100%;
-}
-
-header {
-    background-color: #01579B;
-    color: #F0F4F8;
-    padding: 1rem;
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-}
-
-footer {
-    background-color: #FFFFFF;
-    color: #0D47A1;
-    padding: 1rem;
-    text-align: center;
-    width: 100%;
-    margin-top: 1.5rem;
 }
 
 nav {
     background-color: #FFFFFF;
     padding: 1rem;
-    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 110px;
 }
 
 nav ul {
     padding: 0;
     list-style: none;
-    margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav ul li {
-    margin-right: 1rem;
+    gap: 1rem;
 }
 
 nav ul li a {
@@ -64,159 +25,57 @@ nav ul li a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    text-transform: uppercase;
-}
-
-nav ul li a:hover {
-    color: #01579B;
 }
 
 h1 {
     font-family: 'Lora', serif;
-    font-weight: 700;
     color: #0D47A1;
-    font-size: 3rem;
-    margin: 0;
+    text-align: center;
+    margin: 1.5rem 0;
 }
 
-main {
-    text-align: center;
+.image-gallery {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .gallery-image {
     display: none;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .gallery-image img {
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.hideThis {
-    display: none;
+.gallery-image figcaption {
+    font-family: 'Roboto Slab', serif;
+    color: #01579B;
+    margin-top: 0.5rem;
 }
 
 .button_holder {
     display: flex;
     justify-content: space-between;
     width: 200px;
-    margin-top: 1rem;
+    margin: 1rem auto;
 }
 
-p {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    color: #0288D1;
-    font-size: 1.2rem;
+.hideThis {
+    display: none;
 }
 
-ul {
-    padding: 0;
-    list-style: none;
+footer {
+    background-color: #FFFFFF;
+    color: #0D47A1;
     text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
 }
 
-li {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-    color: #01579B;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-a {
-    color: #0288D1;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #01579B;
-    text-decoration: underline;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 8px;
-    border: none;
-}
-
-@media (max-width: 800px) {
-    body {
-        font-size: 1.1rem;
-    }
-
-    .gallery-image img {
-        max-width: 100%;
-    }
-
-    .location-holder {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 1.5rem;
-    }
-
-    .text-holder {
-        width: 100%;
-    }
-}
-
-@media (max-width: 600px) {
-    body {
-        font-size: 1rem;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin-bottom: 1rem;
-        margin-right: 0;
-    }
-
-    .location-holder {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    .gallery-image {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 555px) {
-    body {
-        font-size: 0.9rem;
-    }
-
-    .location-holder {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    p {
-        padding: 0 1rem;
-    }
-
-    img {
-        margin: auto;
-    }
-}
