@@ -11,6 +11,10 @@ body {
     min-height: 100vh;
 }
 
+.hideThis {
+    display: none !important;
+}
+    
 .text-holder {
     width: 100%;
 }
@@ -211,9 +215,6 @@ img {
     border-radius: 8px;
 }
 
-.hideThis {
-    display: none !important;
-}
 
 .button_holder {
     display: flex;
