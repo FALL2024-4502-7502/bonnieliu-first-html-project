@@ -200,4 +200,45 @@ img {
     img {
         margin: auto;
     }
+    
+    .gallery-image {
+    max-width: 80%;
+    margin-bottom: 1rem;
+}
+
+.gallery-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.hideThis {
+    display: none;
+}
+
+.button_holder {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 2rem auto;
+}
+
+button {
+    background-color: #0288D1;
+    color: #FFFFFF;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #01579B;
+}
+
+#stepper {
+    font-size: 1.2rem;
+    color: #0D47A1;
+    margin: auto 1rem;
+}
 }
