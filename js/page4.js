@@ -6,6 +6,10 @@ var previousButton = document.getElementById("button_previous");
 var photoNumber = document.getElementById("stepper");
 var currentPhotoNumber = 0;
 
+for (let i = 0; i < photoDivs.length; i++) {
+    photoDivs[i].classList.add("hideThis");
+}
+
 photoDivs[currentPhotoNumber].classList.remove('hideThis');
 photoNumber.innerHTML = (currentPhotoNumber + 1) + " / " + photoDivs.length;
 
