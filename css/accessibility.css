@@ -19,3 +19,6 @@
   z-index: 1000;
 }
 
+.skip:hover {
+    color: #ADD8E6; 
+}
