@@ -247,28 +247,5 @@ img {
 }
 
 
-.skip {
-    position: absolute;
-    left: -10000px; 
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
-.skip:focus {
-    position: absolute;
-    left: 10px; 
-    top: 10px;
-    width: auto;
-    height: auto;
-    background-color: #01579B; 
-    color: #FFFFFF; 
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 4px;
-    z-index: 1000; 
-}
-
     
 }
