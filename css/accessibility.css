@@ -1,22 +1,26 @@
-
 .skip {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -1;
 }
 
 .skip:focus {
-    position: absolute;
-    left: 10px; 
-    top: 10px;
-    background-color: #01579B; 
-    color: #FFFFFF;
-    padding: 10px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-size: 1rem;
-    z-index: 1000; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: 10px 20px;
+  background-color: #01579B;
+  color: #FFFFFF;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  z-index: 1000;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
