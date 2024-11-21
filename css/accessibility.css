@@ -1,0 +1,22 @@
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip:focus {
+    position: absolute;
+    left: 10px; 
+    top: 10px;
+    background-color: #01579B; 
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    z-index: 1000; 
+}
