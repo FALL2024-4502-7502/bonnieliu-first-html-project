@@ -246,4 +246,27 @@ img {
     margin: 0 15px; 
 }
 
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 10px 0;
+    background-color: #01579B; 
+    color: #FFFFFF; 
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    z-index: 1000;
+}
+    
 }
