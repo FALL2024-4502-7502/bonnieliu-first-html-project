@@ -1,3 +1,29 @@
+.skip {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #01579B;
+  color: #FFFFFF;
+  font-size: 1rem;
+  text-decoration: none;
+  z-index: -1;
+  transition: top 0.3s ease;
+}
+
+.skip:focus {
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+}
+
+.skip:hover {
+    color: #ADD8E6; 
+}
+
+
 body {
     background-color: #E0F7FA;
     font-family: 'Poppins', sans-serif;
